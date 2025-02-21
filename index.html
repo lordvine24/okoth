@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORDVINE OKOTH</title>
+<head>
+  <link rel="icon" href="download.png" type="image/png">
+  <!-- Other head content -->
+</head>
+
+<link rel="stylesheet"href="okoth.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+<div class="logo">LORDVINE</div>
+
+<ul>
+<li><a href="#" class="active">HOME</a></li>
+<li><a href="skills.html">SKILLS</a></li>
+<li><a href="#kb">ABOUT</a></li>
+
+</ul>
+</nav>
+<div class="b-container">
+<div class="content">
+<p class="boom">Welcome to a space where creativity meets innovation! Here, we believe in the power of design and technology to bring ideas to life. Whether you're exploring our projects or simply browsing for inspiration, we hope you find something that resonates with you. Our journey is all about creating experiences that leave a lasting impact, and we're excited to have you join us along the way. Let's embark on this creative adventure together!
+
+</P>
+ <div class="btn">
+        <button id="myButton" onclick="navigateToSkills()">
+            <span id="buttonText">Let's</span> <span class="arrow">→</span>
+        </button>
+    </div>
+
+    <script>
+        function navigateToSkills() {
+            window.location.href = 'skills.html'; // Redirect to skills.html when the button is clicked
+        }
+    </script>
+<script>
+  let buttonText = document.getElementById("buttonText");
+  let textArray = ["Let's", "Begin"];
+  let currentIndex = 0;
+
+  setInterval(function() {
+    // Change the text inside the button every 2 seconds
+    buttonText.textContent = textArray[currentIndex];
+    
+    // Toggle between "Let's" and "Begin"
+    currentIndex = (currentIndex + 1) % textArray.length;
+  }, 2000);
+</script>
+
+</div>
+
+ </div>
+ </div>
+</div>
+<div class="k-container">
+        <div class="content">
+            <h1>ABOUT ME</h1>
+            <p class="bio-text">Hello! I’m LORDVINE, a passionate and dedicated Front-End Developer with a deep love for crafting clean, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I specialize in bringing designs to life and creating seamless, interactive web experiences. I am constantly exploring the latest front-end technologies and design trends to ensure my projects are always modern and efficient.
+
+		I believe in the power of simplicity and usability in design, and I strive to make websites that not only look great but also work flawlessly across all devices. When I'm not coding, you can find me experimenting with new frameworks or diving into creative web design challenges. My goal is to continuously grow as a developer and deliver impactful digital solutions that leave a lasting impression</p>
+        <q>"The most important thing in programming is to know what you’re trying to accomplish, and how to think."
+– Jeff Atwood, </q>
+
+</div>
+
+        <img src="lo.png" alt="Profile Picture" class="avatar-img">
+    </div>
+<div class="journey-container" id=kb>
+        <h1>MY JOURNEY IN TECH</h1>
+        <p>My journey into the world of technology began in 2023, when I joined Dedan Kimathi University of Technology to pursue a degree in Business Information Technology. Little did I know, this was the beginning of a fascinating adventure. As I dove into my studies, I developed a deep passion for programming and set out to acquire new skills that would set me apart in the ever-evolving tech landscape. I've learned to code in languages like C, C++, and Visual Basic, constantly pushing myself to understand the logic behind each line of code. But my journey doesn't stop there — I am always eager to explore and learn new programming languages, constantly expanding my skill set. Each day brings new challenges, but it's through these challenges that I grow, and the excitement of building something from scratch keeps me moving forward. This is just the beginning, and I can't wait to see where this tech journey takes me.</p>
+
+        <h1>CONTACTS</h1>
+        <p> I'm always excited to connect with like-minded individuals and professionals from around the world. If you'd like to get in touch, feel free to reach out by <a href="mailto:lordvineokoth@gmail.com">sending me an email</a>. Alternatively, you can scroll down to find my social media icons where you can connect with me on Instagram, WhatsApp, or Twitter. Whether you're looking to chat, collaborate, or share ideas, I’d love to hear from you!</p>
+
+        
+    </div>
+    <script src="okoth.js"></script>
+<footer>
+
+<address>
+LORDVINE OKOTH;<br>
+P.O.BOX 6283; <br>
+KISUMU,KENYA;
+</address>
+<div class="social-icons">
+  <!-- Instagram Icon -->
+  <a href="https://www.instagram.com/uncl.efleek" target="_blank" class="social-icon instagram">
+    <img src="IG..jpeg" alt="Instagram">instagram
+  </a>
+  
+  <!-- Twitter Icon -->
+  <a href="https://twitter.com/@fleek10695" target="_blank" class="social-icon twitter">
+    <img src="tw.jpeg" alt="Twitter">twitter
+  </a>
+
+  <!-- WhatsApp Icon -->
+  <a href="https://wa.me/0116243186" target="_blank" class="social-icon whatsapp">
+    <img src="VB.jpeg" alt="WhatsApp">whatsApp
+  </a>
+</div>
+<p>"Let's build something amazing together. Reach out, and let's make your ideas come to life!</p>
+ <p>&copy; 2025 My Tech Journey. All rights reserved.</p>
+</footer>
+</body>
+</html>
